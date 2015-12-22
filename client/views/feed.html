@@ -1,7 +1,10 @@
 <template name="feed">
   <div class="row">
-    <div class="twelve columns">
-      
+    <div class="twelve columns post">
+      <form data-id="insert-post-form">
+        <textarea class="u-full-width insert-post-form" rows="1" placeholder="Write something..." data-id="body"></textarea>
+        <input type="submit" class="button-primary u-pull-right" value="Submit">
+      </form>
     </div>
   </div>
   <div class="row">
@@ -12,14 +15,6 @@
           <li><button type="button" class="{{activeIfFilterIs 'following'}}" data-id="following">Following</button></li>
         </ul>
       </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="twelve columns">
-      <form data-id="insert-post-form">
-        <textarea class="u-full-width insert-post-form" rows="1" placeholder="Write something..." data-id="body"></textarea>
-        <input type="submit" class="button-primary u-pull-right" value="Submit">
-      </form>
     </div>
   </div>
   <div class="row">
