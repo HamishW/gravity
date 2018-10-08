@@ -1,5 +1,5 @@
 setTitle = (title) => {
-  let base = 'Spooky';
+  let base = 'Worka';
   if (title) {
     document.title = title + ' - ' + base;
   }

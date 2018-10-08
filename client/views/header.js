@@ -4,7 +4,7 @@ Template.header.events({
       if(error){
         alert(error.reason);
       } else {
-        FlowRouter.go('/sign-in')
+        FlowRouter.go('/landing')
       }
     });
   }
